@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Agrinho 2026</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header>
+  <h1>Agrinho 2026</h1>
+  <p>Conectando o campo, a cidade e o futuro</p>
+</header>
+
+<nav>
+<ul>
+  <li><a href="#introducao">Introdução</a></li>
+  <li><a href="#campo">Campo</a></li>
+  <li><a href="#cidade">Cidade</a></li>
+  <li><a href="#tecnologia">Tecnologia</a></li>
+  <li><a href="#sustentabilidade">Sustentabilidade</a></li>
+  <li><a href="#interatividade">Interatividade</a></li>
+</ul>
+</nav>
+
+<button class="sidebar-toggle" onclick="openSidebar()">⋮</button>
+
+<aside id="sidebar" class="sidebar">
+  <div class="sidebar-header">
+    <h3>Configurações</h3>
+    <button class="close-btn" onclick="closeSidebar()">×</button>
+  </div>
+  <button id="darkModeToggle" onclick="toggleDarkMode()">Ativar modo escuro</button>
+</aside>
+<div id="sidebarOverlay" class="sidebar-overlay" onclick="closeSidebar()"></div>
+
+<section id="introducao">
+  <h2>Introdução</h2>
+
+  <img src="https://via.placeholder.com/800x300" alt="Imagem introdução Agrinho">
+
+  <p>
+    Aqui o grupo deve explicar o objetivo do site e o Projeto Agrinho.
+  </p>
+  
+  <button class="section-close-btn" onclick="fecharSecao('introducao')" style="display: none;">×</button>
+  
+  <div class="section-textarea" style="display: none;">
+    <textarea placeholder="Digite seu texto aqui..."></textarea>
+  </div>
+</section>
+
+<section id="campo">
+  <h2>Campo</h2>
+
+  <p>
+    Agricultura, produção rural e importância do campo.
+  </p>
+  
+  <button class="section-close-btn" onclick="fecharSecao('campo')" style="display: none;">×</button>
+  
+  <div class="section-textarea" style="display: none;">
+    <textarea placeholder="Digite seu texto aqui..."></textarea>
+  </div>
+</section>
+
+<section id="cidade">
+  <h2>Campo e Cidade</h2>
+  <p>
+    Relação entre cidade e campo e vida urbana.
+  </p>
+  
+  <button class="section-close-btn" onclick="fecharSecao('cidade')" style="display: none;">×</button>
+  
+  <div class="section-textarea" style="display: none;">
+    <textarea placeholder="Digite seu texto aqui..."></textarea>
+  </div>
+</section>
+
+<section id="tecnologia">
+  <h2>Inovação Digital</h2>
+
+  <p>
+    Máquinas, automação, sensores e inovação agrícola.
+  </p>
+  
+  <button class="section-close-btn" onclick="fecharSecao('tecnologia')" style="display: none;">×</button>
+  
+  <div class="section-textarea" style="display: none;">
+    <textarea placeholder="Digite seu texto aqui..."></textarea>
+  </div>
+</section>
+
+<section id="sustentabilidade">
+  <h2>Sustentabilidade</h2>
+
+  <img src="https://via.placeholder.com/800x300" alt="Imagem sustentabilidade">
+
+  <p>
+    Preservação ambiental e uso consciente dos recursos naturais.
+  </p>
+  
+  <button class="section-close-btn" onclick="fecharSecao('sustentabilidade')" style="display: none;">×</button>
+  
+  <div class="section-textarea" style="display: none;">
+    <textarea placeholder="Digite seu texto aqui..."></textarea>
+  </div>
+</section>
+
+<section id="interatividade">
+  <h2>Interatividade</h2>
+
+  <img src="https://via.placeholder.com/800x300" alt="Imagem interação">
+
+  <p>
+    Aqui vocês vão criar uma interação com JavaScript.
+  </p>
+
+  <div class="caixa-interativa">
+
+    <button onclick="acaoBase()">Clique aqui</button>
+
+    <p id="saida"></p>
+
+  </div>
+
+</section>
+
+<footer>
+  <p>Projeto Agrinho 2026 - Alunos</p>
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>
