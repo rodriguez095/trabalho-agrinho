@@ -1,7 +1,7 @@
 ## Agrinho 2026: Plantando o Amanhã
-#Inovação, sustentabilidade e a ponte entre campo e cidade
+Inovação, sustentabilidade e a ponte entre campo e cidade
 
-#🎯 Objetivo do Projeto
+# 🎯 Objetivo do Projeto
 
 Projeto educacional apresentado por alunos do Colégio Estadual Wolff Klabin para o Agrinho 2026.
 Explorar a relação entre campo, cidade, tecnologia e sustentabilidade.
@@ -9,21 +9,21 @@ Promover a conscientização sobre agricultura, meio ambiente e cidadania.
 Incentivar jovens a se tornarem agentes de mudança em suas comunidades.
 Oferecer conteúdo informativo aliado a uma experiência interativa (mini-jogo).
 
-#📋 Tema Central
+# 📋 Tema Central
 
 Conectar o campo e a cidade.
 Destacar a importância da inovação tecnológica na agricultura.
 Enfatizar práticas sustentáveis e o uso consciente dos recursos naturais.
 Valorizar o papel do campo na sociedade e na economia.
 
-#🛠 Tecnologias Utilizadas
+# 🛠 Tecnologias Utilizadas
 
 HTML5 — Estrutura semântica do site.
 CSS3 — Estilização, layout responsivo, animações, transições e modo escuro.
 JavaScript (Vanilla) — Toda a interatividade, lógica do jogo e gerenciamento de estado.
 Desenvolvimento frontend puro (sem frameworks ou bibliotecas externas).
 
-#🌐 Estrutura do Site
+# 🌐 Estrutura do Site
 
 Header com título e descrição.
 Navegação principal com links para as seções.
@@ -38,7 +38,7 @@ Interatividade (mini-jogo)
 
 Footer com informações do projeto.
 
-#🎮 Funcionalidades Interativas
+# 🎮 Funcionalidades Interativas
 
 Modo Escuro completo com toggle.
 Seções expansíveis com animações suaves.
@@ -54,7 +54,7 @@ Sistema de venda de produtos.
 Mensagens de feedback e estados visuais (plantado, crescendo, pronto).
 
 
-#📝 Conteúdos das Seções
+# 📝 Conteúdos das Seções
 
 Textos educativos sobre cada tema (campo, cidade, tecnologia e sustentabilidade).
 Explicação sobre o que é o programa Agrinho.
@@ -64,7 +64,7 @@ Claude (revisão e sugestões)
 Copilot (estruturação do código)
 
 
-#💡 Outras Informações Relevantes
+# 💡 Outras Informações Relevantes
 
 Idioma: Português (Brasil).
 Design moderno com boa usabilidade e responsividade.
