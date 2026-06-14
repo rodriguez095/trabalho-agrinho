@@ -1,5 +1,5 @@
 ## Agrinho 2026: Plantando o Amanhã
-Inovação, sustentabilidade e a ponte entre campo e cidade
+#Inovação, sustentabilidade e a ponte entre campo e cidade
 
 #🎯 Objetivo do Projeto
 
