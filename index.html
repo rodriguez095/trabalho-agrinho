@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Agrinho 2026</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header>
+  <h1>Agrinho 2026</h1>
+  <p>Conectando o campo, a cidade e o futuro</p>
+</header>
+
+<nav>
+<ul>
+  <li><a href="#introducao">Introdução</a></li>
+  <li><a href="#campo">Campo</a></li>
+  <li><a href="#cidade">Cidade</a></li>
+  <li><a href="#tecnologia">Tecnologia</a></li>
+  <li><a href="#sustentabilidade">Sustentabilidade</a></li>
+  <li><a href="#interatividade">Interatividade</a></li>
+</ul>
+</nav>
+
+<button class="sidebar-toggle" onclick="openSidebar()">⋮</button>
+
+<aside id="sidebar" class="sidebar">
+  <div class="sidebar-header">
+    <h3>Configurações</h3>
+    <button class="close-btn" onclick="closeSidebar()">×</button>
+  </div>
+  <button id="darkModeToggle" onclick="toggleDarkMode()">Ativar modo escuro</button>
+</aside>
+<div id="sidebarOverlay" class="sidebar-overlay" onclick="closeSidebar()"></div>
+
+<section id="introducao">
+  <h2>Introdução</h2>
+  <p class="section-subtitle">Quem somos e qual é o objetivo do Projeto Agrinho 2026?</p>
+
+  <div class="section-content">
+    <p>
+      Somos alunos do Colégio Estadual Wolff Klabin, estamos apresentando este site para o projeto Agrinho 2026.
+    </p>
+    <p>
+      Nosso objetivo é explorar a relação entre o campo, a cidade e as inovações tecnológicas, além de discutir a importância da sustentabilidade. E o que é o Agrinho? O Agrinho é um programa educacional que visa promover a conscientização sobre a agricultura, o meio ambiente e a cidadania entre os jovens. Ele incentiva os estudantes a se envolverem com temas relacionados ao campo, à cidade e à tecnologia, promovendo uma compreensão mais profunda das questões agrícolas e ambientais. Através de atividades interativas, jogos e projetos, o Agrinho busca inspirar os jovens a se tornarem agentes de mudança em suas comunidades, promovendo práticas sustentáveis e valorizando a importância do campo para a sociedade.
+    </p>
+  </div>
+
+  <button class="section-close-btn" onclick="fecharSecao('introducao')">×</button>
+</section>
+
+<section id="campo">
+  <h2>Campo</h2>
+
+  <p>
+    Agricultura, produção rural e importância do campo.
+  </p>
+
+  <div class="section-content"></div>
+
+  <button class="section-close-btn" onclick="fecharSecao('campo')">×</button>
+</section>
+
+<section id="cidade">
+  <h2>Campo e Cidade</h2>
+  <p>
+    Relação entre cidade e campo e vida urbana.
+  </p>
+
+  <div class="section-content"></div>
+
+  <button class="section-close-btn" onclick="fecharSecao('cidade')">×</button>
+</section>
+
+<section id="tecnologia">
+  <h2>Inovação Digital</h2>
+
+  <p>
+    Máquinas, automação, sensores e inovação agrícola.
+  </p>
+
+  <div class="section-content"></div>
+
+  <button class="section-close-btn" onclick="fecharSecao('tecnologia')">×</button>
+</section>
+
+<section id="sustentabilidade">
+  <h2>Sustentabilidade</h2>
+  <p>
+    Preservação ambiental e uso consciente dos recursos naturais.
+  </p>
+
+  <div class="section-content"></div>
+
+  <button class="section-close-btn" onclick="fecharSecao('sustentabilidade')">×</button>
+</section>
+
+<section id="interatividade">
+  <h2>Interatividade</h2>
+
+  <div class="section-content">
+    <div class="fazenda-game">
+      <div class="shop-card">
+        <div class="farm-card-header">
+          <h3>Loja de Sementes</h3>
+          <span id="coinCount">🪙 12 moedas</span>
+        </div>
+        <p>Compre sementes para plantar nos canteiros da fazenda 3x3.</p>
+        <div class="seed-shop-buttons">
+          <button class="seed-buy-btn" data-seed="milho">🌽 Milho - 3 🪙</button>
+          <button class="seed-buy-btn" data-seed="cenoura">🥕 Cenoura - 4 🪙</button>
+          <button class="seed-buy-btn" data-seed="tomate">🍅 Tomate - 5 🪙</button>
+        </div>
+        <div class="farm-action-buttons">
+          <button id="harvestModeBtn" class="harvest-btn">🌾 Modo Colheita</button>
+          <button id="sellAllBtn" class="sell-btn">💰 Vender Tudo</button>
+        </div>
+        <p class="farm-status" id="farmMessage"></p>
+        <p class="inventory-info" id="inventoryInfo"></p>
+      </div>
+
+      <div class="farm-card">
+        <div class="farm-card-header">
+          <h3>Fazenda 3x3</h3>
+          <span>Escolha uma semente e clique em um canteiro</span>
+        </div>
+        <div class="farm-grid" id="farmGrid"></div>
+      </div>
+    </div>
+  </div>
+
+  </div>
+</section>
+
+<footer>
+  <p>Projeto Agrinho 2026 - Alunos</p>
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>
+<img src="terra.jpeg" alt="Terra"
